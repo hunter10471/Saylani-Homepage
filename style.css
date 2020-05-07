@@ -321,6 +321,10 @@ nav ul li ul li a:hover{
 
 
 }
+.bg46{
+background-color: white;
+width: fit-content;
+}
 #box2{
     padding: 5px;
     margin-bottom: 20px;
@@ -426,11 +430,17 @@ nav ul li ul li a:hover{
 @media only screen and (max-width: 959px){
     body {
         width: 100%;
+
     }
     .b{
         width: 100%;
     }
-    .tutu{
-        margin-right: 200px;
+    .misi,.tutu,.tutu1{
+        width: 100%;
+    }
+}
+@media only screen and (min-width:600px){
+    body{
+        font-size: medium;
     }
 }
